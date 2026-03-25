@@ -1,0 +1,404 @@
+<table style="background-color:#1F2937;margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="padding:22px 25px;">
+        <h1 style="color:#FFFFFF;margin:0;font-size:26px;font-weight:700;">RoadRunnerMSP — Firewall As-Built</h1>
+        <p style="color:#D1D5DB;margin:8px 0 0 0;font-size:15px;">Technical system record for firewall, edge security, routing, and VPN configuration</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FEF2F2;border:3px solid #DC2626;width:100%;">
+          <tbody>
+            <tr>
+              <td style="padding:12px 15px;color:#991B1B;font-weight:700;font-size:14px;">
+                CONTROLLED DOCUMENT — This document may contain client-owned configuration data, shared operational notes, or internal implementation details depending on the completed classification below. Credentials must never be stored in plain text here and must instead reference your approved password manager.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#374151;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Data Classification &amp; Ownership</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #374151;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:260px;">Data Classification</td>
+              <td style="color:#111827;padding:10px 15px;">
+                <span style="background-color:#E5E7EB;color:#111827;padding:3px 10px;font-weight:700;font-size:12px;">Client-Owned</span>
+                &nbsp;
+                <span style="background-color:#E5E7EB;color:#111827;padding:3px 10px;font-weight:700;font-size:12px;">Shared</span>
+                &nbsp;
+                <span style="background-color:#E5E7EB;color:#111827;padding:3px 10px;font-weight:700;font-size:12px;">Internal</span>
+              </td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Ownership</td>
+              <td style="color:#111827;padding:10px 15px;">Client / MSP / Shared</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Exportable on Offboarding</td>
+              <td style="color:#111827;padding:10px 15px;">Yes / Review Required / No</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Transfer Classification</td>
+              <td style="color:#111827;padding:10px 15px;">Client Transferable / Mixed / Internal Only</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Offboarding Rule</td>
+              <td style="color:#111827;padding:10px 15px;">State whether this completed Firewall As-Built may be transferred during offboarding.</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Notes</td>
+              <td style="color:#111827;padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#DC2626;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Critical Handling Notice</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FEF2F2;border:2px solid #DC2626;width:100%;">
+          <tbody>
+            <tr>
+              <td style="padding:10px 15px;color:#991B1B;font-weight:700;font-size:13px;">
+                Changes to firewall rules, VPN settings, NAT policies, WAN configuration, or security services can cause major outages. Review change controls and business impact before making modifications.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 1 — Firewall Information</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Firewall Name / Hostname</td>
+              <td style="color:#111827;padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Vendor / Model</td>
+              <td style="color:#111827;padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Serial Number</td>
+              <td style="color:#111827;padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Location / Site</td>
+              <td style="color:#111827;padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Business Purpose</td>
+              <td style="color:#111827;padding:10px 15px;"><br><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 2 — Administrative Access</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Management URL / IP</td>
+              <td style="color:#111827;padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Management Method</td>
+              <td style="color:#111827;padding:10px 15px;">Web / SSH / Console / Cloud Portal</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Credential Storage</td>
+              <td style="color:#111827;padding:10px 15px;">Password Manager Reference</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">MFA Enabled</td>
+              <td style="color:#111827;padding:10px 15px;">Yes / No / N/A</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 3 — WAN &amp; Internet</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#E5E7EB;">
+              <th style="color:#111827;padding:10px 15px;">Connection</th>
+              <th style="color:#111827;padding:10px 15px;">Details</th>
+              <th style="color:#111827;padding:10px 15px;">Notes</th>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;">Primary WAN</td>
+              <td style="padding:10px 15px;">ISP / Circuit / Static IP / Gateway</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;">Secondary WAN / Failover</td>
+              <td style="padding:10px 15px;">ISP / Circuit / Static IP / Gateway</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;">Public IPs in Use</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 4 — LAN, VLAN &amp; Interfaces</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#E5E7EB;">
+              <th style="padding:10px 15px;">Interface / VLAN</th>
+              <th style="padding:10px 15px;">Subnet / Gateway</th>
+              <th style="padding:10px 15px;">Purpose</th>
+              <th style="padding:10px 15px;">Notes</th>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">LAN / Guest / Voice / Server / Other</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">LAN / Guest / Voice / Server / Other</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 5 — NAT, Port Forwarding &amp; VPN</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#E5E7EB;">
+              <th style="padding:10px 15px;">Rule / VPN</th>
+              <th style="padding:10px 15px;">Public / Peer</th>
+              <th style="padding:10px 15px;">Destination / Purpose</th>
+              <th style="padding:10px 15px;">Notes</th>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#DC2626;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 6 — Security &amp; Risk</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FEF2F2;border:2px solid #DC2626;width:100%;">
+          <tbody>
+            <tr>
+              <td style="padding:10px 15px;color:#991B1B;font-weight:700;font-size:13px;">
+                Document enabled security services, exceptions, and known risks affecting firewall security posture.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table style="background-color:#FFFFFF;border-left:2px solid #DC2626;border-right:2px solid #DC2626;border-bottom:2px solid #DC2626;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">IDS / IPS</td>
+              <td style="padding:10px 15px;">Enabled / Disabled / Partial</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Content Filtering</td>
+              <td style="padding:10px 15px;">Enabled / Disabled / Partial</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Geo Blocking / Reputation</td>
+              <td style="padding:10px 15px;">Enabled / Disabled / Partial</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Known Risks / Gaps</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 7 — Backups, Firmware &amp; Recovery</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Firmware Version</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Last Firmware Update</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Config Backup Method</td>
+              <td style="padding:10px 15px;">Manual / Automated / Cloud / Other</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Backup Location</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Recovery Notes</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 8 — Validation &amp; Sign-Off</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Configuration Verified By</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Date Verified</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Status</td>
+              <td style="padding:10px 15px;">Draft / Verified / Needs Review</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%;margin-bottom:25px;">
+  <tbody>
+    <tr>
+      <td style="background-color:#1F2937;padding:12px 15px;">
+        <p style="color:#D1D5DB;margin:0;font-size:13px;text-align:center;">
+          <strong style="color:#FFFFFF;">RoadRunnerMSP Firewall As-Built</strong> | Controlled technical documentation
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
