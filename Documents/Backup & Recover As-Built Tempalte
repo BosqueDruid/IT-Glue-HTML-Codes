@@ -1,0 +1,373 @@
+<table style="background-color:#1F2937;margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="padding:22px 25px;">
+        <h1 style="color:#FFFFFF;margin:0;font-size:26px;font-weight:700;">RoadRunnerMSP — Backup &amp; Recovery As-Built</h1>
+        <p style="color:#D1D5DB;margin:8px 0 0 0;font-size:15px;">Technical system record for backup platforms, protected systems, retention, restore, and recovery procedures</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FEF2F2;border:3px solid #DC2626;width:100%;">
+          <tbody>
+            <tr>
+              <td style="padding:12px 15px;color:#991B1B;font-weight:700;font-size:14px;">
+                CONTROLLED DOCUMENT — This document may contain client-owned configuration data, shared operational notes, or internal implementation details depending on the completed classification below. Credentials must never be stored in plain text here and must instead reference your approved password manager.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#374151;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Data Classification &amp; Ownership</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #374151;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:260px;">Data Classification</td>
+              <td style="color:#111827;padding:10px 15px;">
+                <span style="background-color:#E5E7EB;color:#111827;padding:3px 10px;font-weight:700;font-size:12px;">Client-Owned</span>
+                &nbsp;
+                <span style="background-color:#E5E7EB;color:#111827;padding:3px 10px;font-weight:700;font-size:12px;">Shared</span>
+                &nbsp;
+                <span style="background-color:#E5E7EB;color:#111827;padding:3px 10px;font-weight:700;font-size:12px;">Internal</span>
+              </td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Ownership</td>
+              <td style="color:#111827;padding:10px 15px;">Client / MSP / Shared</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Exportable on Offboarding</td>
+              <td style="color:#111827;padding:10px 15px;">Yes / Review Required / No</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Transfer Classification</td>
+              <td style="color:#111827;padding:10px 15px;">Client Transferable / Mixed / Internal Only</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Offboarding Rule</td>
+              <td style="color:#111827;padding:10px 15px;">State whether this completed Backup &amp; Recovery As-Built may be transferred during offboarding.</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Notes</td>
+              <td style="color:#111827;padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#DC2626;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Critical Handling Notice</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FEF2F2;border:2px solid #DC2626;width:100%;">
+          <tbody>
+            <tr>
+              <td style="padding:10px 15px;color:#991B1B;font-weight:700;font-size:13px;">
+                Backup success does not equal restore success. Recovery assumptions, retention gaps, encryption, immutable storage, and restore testing must be documented clearly.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 1 — Backup System Information</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Backup Platform / Solution</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Vendor</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Coverage Type</td>
+              <td style="padding:10px 15px;">Server / Endpoint / M365 / SaaS / Image-Based / Mixed</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Environment / Site Name</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Business Purpose</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 2 — Administrative Access</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Admin Portal URL</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Authentication Method</td>
+              <td style="padding:10px 15px;">SSO / MFA / Local / Federated</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Credential Storage</td>
+              <td style="padding:10px 15px;">Password Manager Reference</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">MFA Enabled</td>
+              <td style="padding:10px 15px;">Yes / No / N/A</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 3 — Protected Systems &amp; Scope</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#E5E7EB;">
+              <th style="padding:10px 15px;">Protected System / Dataset</th>
+              <th style="padding:10px 15px;">Backup Type</th>
+              <th style="padding:10px 15px;">Included Data</th>
+              <th style="padding:10px 15px;">Excluded Data</th>
+              <th style="padding:10px 15px;">Notes</th>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">Image / File / App / M365 / SaaS / Other</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">Image / File / App / M365 / SaaS / Other</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 4 — Storage, Retention &amp; Policies</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#E5E7EB;">
+              <th style="padding:10px 15px;">Policy / Job</th>
+              <th style="padding:10px 15px;">Schedule</th>
+              <th style="padding:10px 15px;">Retention</th>
+              <th style="padding:10px 15px;">Target</th>
+              <th style="padding:10px 15px;">Notes</th>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">Hourly / Daily / Weekly / Monthly</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">Hourly / Daily / Weekly / Monthly</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#DC2626;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 5 — Recovery Risks &amp; Gaps</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FEF2F2;border:2px solid #DC2626;width:100%;">
+          <tbody>
+            <tr>
+              <td style="padding:10px 15px;color:#991B1B;font-weight:700;font-size:13px;">
+                Document restore paths, dependencies, bottlenecks, missing coverage, and any assumptions that could affect recovery success.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table style="background-color:#FFFFFF;border-left:2px solid #DC2626;border-right:2px solid #DC2626;border-bottom:2px solid #DC2626;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Primary Restore Path</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Dependencies for Recovery</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Known Gaps / Unprotected Areas</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Recovery Assumptions</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 6 — Testing &amp; Restore Validation</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#E5E7EB;">
+              <th style="padding:10px 15px;">Test Date</th>
+              <th style="padding:10px 15px;">Test Type</th>
+              <th style="padding:10px 15px;">Target Restored</th>
+              <th style="padding:10px 15px;">Result</th>
+              <th style="padding:10px 15px;">Notes</th>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">File / VM / Mailbox / Full System / App / Other</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">Pass / Partial / Fail</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">File / VM / Mailbox / Full System / App / Other</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">Pass / Partial / Fail</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 7 — Validation &amp; Sign-Off</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Configuration Verified By</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Date Verified</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Status</td>
+              <td style="padding:10px 15px;">Draft / Verified / Needs Review</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%;margin-bottom:25px;">
+  <tbody>
+    <tr>
+      <td style="background-color:#1F2937;padding:12px 15px;">
+        <p style="color:#D1D5DB;margin:0;font-size:13px;text-align:center;">
+          <strong style="color:#FFFFFF;">RoadRunnerMSP Backup &amp; Recovery As-Built</strong> | Controlled technical documentation
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
