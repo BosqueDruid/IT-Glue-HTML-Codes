@@ -1,0 +1,388 @@
+<table style="background-color:#1F2937;margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="padding:22px 25px;">
+        <h1 style="color:#FFFFFF;margin:0;font-size:26px;font-weight:700;">RoadRunnerMSP — Infrastructure As-Built</h1>
+        <p style="color:#D1D5DB;margin:8px 0 0 0;font-size:15px;">Technical system record for on-prem, hybrid, and core infrastructure environments</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FEF2F2;border:3px solid #DC2626;width:100%;">
+          <tbody>
+            <tr>
+              <td style="padding:12px 15px;color:#991B1B;font-weight:700;font-size:14px;">
+                CONTROLLED DOCUMENT — This document may contain client-owned configuration data, shared operational notes, or internal implementation details depending on the completed classification below. Credentials must never be stored in plain text here and must instead reference your approved password manager.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#374151;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Data Classification &amp; Ownership</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #374151;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:260px;">Data Classification</td>
+              <td style="color:#111827;padding:10px 15px;">
+                <span style="background-color:#E5E7EB;color:#111827;padding:3px 10px;font-weight:700;font-size:12px;">Client-Owned</span>
+                &nbsp;
+                <span style="background-color:#E5E7EB;color:#111827;padding:3px 10px;font-weight:700;font-size:12px;">Shared</span>
+                &nbsp;
+                <span style="background-color:#E5E7EB;color:#111827;padding:3px 10px;font-weight:700;font-size:12px;">Internal</span>
+              </td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Ownership</td>
+              <td style="color:#111827;padding:10px 15px;">Client / MSP / Shared</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Exportable on Offboarding</td>
+              <td style="color:#111827;padding:10px 15px;">Yes / Review Required / No</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Transfer Classification</td>
+              <td style="color:#111827;padding:10px 15px;">Client Transferable / Mixed / Internal Only</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Offboarding Rule</td>
+              <td style="color:#111827;padding:10px 15px;">State whether this completed Infrastructure As-Built may be transferred during offboarding.</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Notes</td>
+              <td style="color:#111827;padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 1 — Environment Information</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Environment / Site Name</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Primary Location</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Environment Type</td>
+              <td style="padding:10px 15px;">On-Prem / Hybrid / Cloud-Integrated</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Primary Owner</td>
+              <td style="padding:10px 15px;">Client / MSP</td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Business Purpose</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 2 — Network &amp; Connectivity</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#E5E7EB;">
+              <th style="padding:10px 15px;">Area</th>
+              <th style="padding:10px 15px;">Details</th>
+              <th style="padding:10px 15px;">Notes</th>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;">Primary WAN / ISP</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;">Secondary WAN / Failover</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;">Firewall Reference</td>
+              <td style="padding:10px 15px;">Link to Firewall As-Built</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;">LAN / VLAN Design</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 3 — Server &amp; Compute Inventory</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#E5E7EB;">
+              <th style="padding:10px 15px;">System</th>
+              <th style="padding:10px 15px;">Role</th>
+              <th style="padding:10px 15px;">OS / Platform</th>
+              <th style="padding:10px 15px;">IP / Hostname</th>
+              <th style="padding:10px 15px;">Notes</th>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">AD / File / App / SQL / Hypervisor / Other</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">AD / File / App / SQL / Hypervisor / Other</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 4 — Switching, Wireless &amp; Devices</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#E5E7EB;">
+              <th style="padding:10px 15px;">Device Type</th>
+              <th style="padding:10px 15px;">Vendor / Model</th>
+              <th style="padding:10px 15px;">Management / IP</th>
+              <th style="padding:10px 15px;">Purpose</th>
+              <th style="padding:10px 15px;">Notes</th>
+            </tr>
+            <tr style="background-color:#F9FAFB;">
+              <td style="padding:10px 15px;">Switch</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">Core / Access / Distribution</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px;">Wireless AP / Controller</td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;"><br></td>
+              <td style="padding:10px 15px;">Wireless</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 5 — Identity &amp; Core Services</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Directory Platform</td>
+              <td style="padding:10px 15px;">AD / Entra ID / Hybrid / Other</td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Primary Domain / Tenant</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">DNS / DHCP Source</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Critical Identity Notes</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#DC2626;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 6 — Security, Monitoring &amp; Risk</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FEF2F2;border:2px solid #DC2626;width:100%;">
+          <tbody>
+            <tr>
+              <td style="padding:10px 15px;color:#991B1B;font-weight:700;font-size:13px;">
+                Document security tooling, monitoring, patching, and known risks affecting the infrastructure environment.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table style="background-color:#FFFFFF;border-left:2px solid #DC2626;border-right:2px solid #DC2626;border-bottom:2px solid #DC2626;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">EDR / AV Platform</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">RMM / Monitoring Platform</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Patch Management</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Known Risks / Gaps</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 7 — Backup, Recovery &amp; Dependencies</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Backup Platform</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Last Restore Test</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Dependencies</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Recovery Notes</td>
+              <td style="padding:10px 15px;"><br><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="margin-bottom:25px;width:100%;">
+  <tbody>
+    <tr>
+      <td style="background-color:#4B5563;padding:12px 15px;">
+        <h2 style="color:#FFFFFF;margin:0;font-size:18px;font-weight:600;">Section 8 — Validation &amp; Sign-Off</h2>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:0;">
+        <table style="background-color:#FFFFFF;border:2px solid #4B5563;width:100%;">
+          <tbody>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;width:240px;">Configuration Verified By</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr>
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Date Verified</td>
+              <td style="padding:10px 15px;"><br></td>
+            </tr>
+            <tr style="background-color:#F3F4F6;">
+              <td style="color:#111827;font-weight:600;padding:10px 15px;">Status</td>
+              <td style="padding:10px 15px;">Draft / Verified / Needs Review</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="width:100%;margin-bottom:25px;">
+  <tbody>
+    <tr>
+      <td style="background-color:#1F2937;padding:12px 15px;">
+        <p style="color:#D1D5DB;margin:0;font-size:13px;text-align:center;">
+          <strong style="color:#FFFFFF;">RoadRunnerMSP Infrastructure As-Built</strong> | Controlled technical documentation
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
