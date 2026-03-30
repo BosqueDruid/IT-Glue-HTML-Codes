@@ -1,0 +1,101 @@
+## To create mass amounts of folders in IT Glue.  Use the Import Feature. Below is the Folders Bosque IT Creates for all Customers.  
+## 
+## The Way it works is /Name then /OtherName will create two folders.  If you want subfolders you need to do /Name/RockStar  and /OtherName/Baller
+## This makes it so you can prepopulate an entire structor without having to copy from a master grouping and customize it for the customer based on your Onboarding. 
+/Operations
+/Operations/Runbooks
+/Operations/Runbooks/Identity
+/Operations/Runbooks/User Management
+/Operations/Runbooks/Endpoint
+/Operations/Runbooks/Network
+/Operations/Runbooks/Email
+/Operations/Runbooks/Applications
+/Operations/Runbooks/Backup
+/Operations/Runbooks/Security
+/Operations/Knowledge Base
+/Operations/Knowledge Base/End User Guides
+/Operations/Knowledge Base/How-To Articles
+/Operations/Knowledge Base/Training Docs
+/Operations/Architecture
+/Operations/Architecture/Diagrams
+/Operations/Architecture/System Design
+/Operations/Architecture/Environment Models
+/Operations/Standards
+/Operations/Standards/Endpoint Standards
+/Operations/Standards/Network Standards
+/Operations/Standards/Security Standards
+/Operations/Standards/Naming Conventions
+/Operations/Policies
+/Operations/Policies/Security Policies
+/Operations/Policies/Access Policies
+/Operations/Policies/Change Management
+/Operations/Policies/Acceptable Use
+/Client Environment
+/Client Environment/Overview
+/Client Environment/Identity
+/Client Environment/Network
+/Client Environment/Endpoints
+/Client Environment/Servers
+/Client Environment/Applications
+/Client Environment/Backup & Recovery
+/Client Environment/Security
+/Client Environment/Vendors & Licensing
+/Client Environment/Access & Admin
+/Client Environment/Overview/Environment Summary
+/Client Environment/Overview/Key Contacts
+/Client Environment/Overview/Support Model
+/Client Environment/Overview/Critical Systems
+/Client Environment/Overview/Quick Links
+/Client Environment/Identity/Tenant Overview
+/Client Environment/Identity/MFA Configuration
+/Client Environment/Identity/Conditional Access
+/Client Environment/Identity/SSO Integrations
+/Client Environment/Network/Firewall
+/Client Environment/Network/VPN
+/Client Environment/Network/LAN VLAN
+/Client Environment/Network/ISP Circuits
+/Client Environment/Network/WiFi
+/Client Environment/Endpoints/Workstation Standards
+/Client Environment/Endpoints/Device Management
+/Client Environment/Endpoints/Encryption
+/Client Environment/Endpoints/Provisioning
+/Client Environment/Servers/On-Prem Servers
+/Client Environment/Servers/Cloud Servers
+/Client Environment/Servers/File Servers
+/Client Environment/Servers/Access Methods
+/Client Environment/Applications/Business Critical Apps
+/Client Environment/Applications/SaaS Apps
+/Client Environment/Applications/Licensing Notes
+/Client Environment/Applications/Known Issues
+/Client Environment/Backup & Recovery/Backup Systems
+/Client Environment/Backup & Recovery/Backup Scope
+/Client Environment/Backup & Recovery/Retention Policies
+/Client Environment/Backup & Recovery/Restore Testing
+/Client Environment/Backup & Recovery/DR Notes
+/Client Environment/Security/EDR MDR
+/Client Environment/Security/Email Security
+/Client Environment/Security/Identity Protection
+/Client Environment/Security/Privilege Management
+/Client Environment/Security/Monitoring Tools
+/Client Environment/Vendors & Licensing/ISP
+/Client Environment/Vendors & Licensing/Hardware Vendors
+/Client Environment/Vendors & Licensing/Software Vendors
+/Client Environment/Vendors & Licensing/Licensing Overview
+/Client Environment/Vendors & Licensing/Support Contracts
+/Client Environment/Access & Admin/Admin Portals
+/Client Environment/Access & Admin/Access Methods
+/Client Environment/Access & Admin/Restrictions
+/Client Environment/Access & Admin/Special Handling
+/Security
+/Security/Risk Register
+/Security/Security Reviews
+/Security/Incidents
+/Security/Compliance
+/Security/Security Standards
+/Security/Security Policies
+/Projects
+/Projects/Active Projects
+/Projects/Completed Projects
+/Projects/Completed Projects/2026
+/Projects/Migrations
+/Projects/Major Changes
