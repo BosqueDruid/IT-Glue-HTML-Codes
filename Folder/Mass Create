@@ -2,6 +2,14 @@
 ## 
 ## The Way it works is /Name then /OtherName will create two folders.  If you want subfolders you need to do /Name/RockStar  and /OtherName/Baller
 ## This makes it so you can prepopulate an entire structor without having to copy from a master grouping and customize it for the customer based on your Onboarding. 
+## Note the reason why we are sharing our Structor is there is nothing Bosque IT Secret Sauce in here and things all MSPS should be tracking in some degree.  Your more then welcome to copy this.
+## If you do copy and use this and find that something works better email Marlo at Bosque IT
+## Second Note, No spaces between lines when copying over make sure there are no extra bits after each line
+## IE
+## /Operations
+##
+## /Operations/Runbooks
+## That will not let you run the import in IT Glue. 
 /Operations
 /Operations/Runbooks
 /Operations/Runbooks/Identity
